@@ -7,11 +7,11 @@
     android:orientation="vertical">
 
     <ImageButton
-        android:id="@+id/ib_small_brush"
+        android:id="@+id/ib_large_brush"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:contentDescription="Image_small"
-        android:src="@drawable/small"
+        android:contentDescription="Image_large"
+        android:src="@drawable/large"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -26,16 +26,16 @@
         android:src="@drawable/medium"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ib_small_brush"
-        app:layout_constraintBottom_toTopOf="@+id/ib_large_brush"
+        app:layout_constraintTop_toBottomOf="@+id/ib_large_brush"
+        app:layout_constraintBottom_toTopOf="@+id/ib_small_brush"
         />
 
     <ImageButton
-        android:id="@+id/ib_large_brush"
+        android:id="@+id/ib_small_brush"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:contentDescription="Image_large"
-        android:src="@drawable/large"
+        android:contentDescription="Image_small"
+        android:src="@drawable/small"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ib_medium_brush"

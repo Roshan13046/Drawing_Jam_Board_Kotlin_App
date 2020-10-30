@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:2:1-21:12
+ADDED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:2:1-25:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\bd9eaa2992ad422b7eac643b0aac27f7\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core-ktx:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\a8f374263810ac0944425b939e77fa29\jetified-core-ktx-1.3.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\85fa2711bb2ad134a23924a267c31046\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
@@ -26,25 +26,33 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Lenovo\.gradle\c
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\c67b9bb136a4f6d2adb0b6b00aa57ae6\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\a25feba509b9cf92e2d524d5a5ea1774\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\49555381fa7291ed6a909b646083fc2a\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:2:1-25:12
 	package
 		ADDED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:3:5-41
 		INJECTED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:2:1-21:12
+		ADDED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:2:1-25:12
 		INJECTED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:2:1-21:12
+		ADDED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:2:1-25:12
 		INJECTED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:6:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:7:22-78
 application
-ADDED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:5:5-19:19
+ADDED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:9:5-23:19
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\85fa2711bb2ad134a23924a267c31046\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\85fa2711bb2ad134a23924a267c31046\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [androidx.core:core:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\3680f33e943d101e1f4a17441664df75\core-1.3.0\AndroidManifest.xml:24:5-89
@@ -54,33 +62,33 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Le
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\3680f33e943d101e1f4a17441664df75\core-1.3.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:12:9-41
 	android:roundIcon
-		ADDED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:13:9-54
 	android:icon
-		ADDED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:11:9-43
 	android:allowBackup
-		ADDED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:11:9-40
+		ADDED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:15:9-40
 activity#com.example.kidsdrawingapp.MainActivity
-ADDED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:12:9-18:20
+ADDED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:16:9-22:20
 	android:screenOrientation
-		ADDED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:12:48-84
+		ADDED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:16:48-84
 	android:name
-		ADDED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:12:19-47
+		ADDED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:16:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:13:13-17:29
+ADDED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:14:17-69
+ADDED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:14:25-66
+		ADDED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:16:17-77
+ADDED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:16:27-74
+		ADDED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:20:27-74
 uses-sdk
 INJECTED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml

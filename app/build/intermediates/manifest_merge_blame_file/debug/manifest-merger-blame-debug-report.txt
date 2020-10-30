@@ -10,41 +10,49 @@
 9        android:targetSdkVersion="29" />
 9-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml
 10
-11    <application
-11-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:5:5-19:19
-12        android:allowBackup="true"
-12-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:6:9-35
-13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\3680f33e943d101e1f4a17441664df75\core-1.3.0\AndroidManifest.xml:24:18-86
-14        android:debuggable="true"
-15        android:icon="@mipmap/ic_launcher"
-15-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:7:9-43
-16        android:label="@string/app_name"
-16-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:8:9-41
-17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:9:9-54
-18        android:supportsRtl="true"
-18-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:10:9-35
-19        android:testOnly="true"
-20        android:theme="@style/AppTheme" >
-20-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:11:9-40
-21        <activity
-21-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:12:9-18:20
-22            android:name="com.example.kidsdrawingapp.MainActivity"
-22-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:12:19-47
-23            android:screenOrientation="portrait" >
-23-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:12:48-84
-24            <intent-filter>
-24-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:13:13-17:29
-25                <action android:name="android.intent.action.MAIN" />
-25-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:14:17-69
-25-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:14:25-66
-26
-27                <category android:name="android.intent.category.LAUNCHER" />
-27-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:16:17-77
-27-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:16:27-74
-28            </intent-filter>
-29        </activity>
-30    </application>
-31
-32</manifest>
+11    <!-- PERMISSIONS OF THE APP -->
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:6:22-77
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:7:5-80
+13-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:7:22-78
+14
+15    <application
+15-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:9:5-23:19
+16        android:allowBackup="true"
+16-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:10:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\3680f33e943d101e1f4a17441664df75\core-1.3.0\AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:11:9-43
+20        android:label="@string/app_name"
+20-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:12:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:13:9-54
+22        android:supportsRtl="true"
+22-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:14:9-35
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme" >
+24-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:15:9-40
+25        <activity
+25-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:16:9-22:20
+26            android:name="com.example.kidsdrawingapp.MainActivity"
+26-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:16:19-47
+27            android:screenOrientation="portrait" >
+27-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:16:48-84
+28            <intent-filter>
+28-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:17:13-21:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:18:17-69
+29-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:18:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:20:17-77
+31-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:20:27-74
+32            </intent-filter>
+33        </activity>
+34    </application>
+35
+36</manifest>

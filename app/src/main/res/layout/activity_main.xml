@@ -25,13 +25,13 @@
             android:layout_height="match_parent"
             android:contentDescription="background"
             android:scaleType="centerCrop"
-            android:src="@drawable/image" />
+            />
 
         <com.example.kidsdrawingapp.DrawingView
             android:id="@+id/drawing_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#80FFFFFF"
+            android:background="#20FFFFFF"
             />
     </FrameLayout>
 
@@ -41,7 +41,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintBottom_toTopOf="@+id/ib_brush"
+        app:layout_constraintBottom_toTopOf="@+id/ll_action_buttons"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/fl_drawing_view_container"
@@ -172,18 +172,37 @@
             />
 
     </LinearLayout>
-    <ImageButton
-        android:id="@+id/ib_brush"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:src="@drawable/ic_brush"
-        android:contentDescription="brush_image"
-        android:scaleType="fitXY"
-        android:layout_margin="5dp"
+    <LinearLayout
+        android:id="@+id/ll_action_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        />
+        >
+
+
+        <ImageButton
+            android:id="@+id/ib_gallery"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/gallery"
+            android:contentDescription="gallery_image"
+            android:scaleType="fitXY"
+            android:layout_margin="5dp"
+            />
+
+        <ImageButton
+            android:id="@+id/ib_brush"
+            android:layout_width="28dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:contentDescription="brush_image"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_brush" />
+    </LinearLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

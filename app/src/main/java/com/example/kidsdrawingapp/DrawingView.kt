@@ -9,10 +9,10 @@ import android.view.View
 
 class DrawingView(context:Context , attrs:AttributeSet) : View(context , attrs) {
 
-    private var mDrawPath : CustomPath?= null
-    private var mCanvasBitmap : Bitmap?= null
-    private var mDrawPaint : Paint?= null
-    private var mCanvasPaint : Paint ?= null
+    private var mDrawPath : CustomPath? = null
+    private var mCanvasBitmap : Bitmap? = null
+    private var mDrawPaint : Paint? = null
+    private var mCanvasPaint : Paint? = null
     private var mBrushSize:Float = 0.toFloat()
     private var color = Color.GREEN
     private var canvas: Canvas?= null
@@ -29,7 +29,8 @@ class DrawingView(context:Context , attrs:AttributeSet) : View(context , attrs) 
         mDrawPaint!!.style = Paint.Style.STROKE
         mDrawPaint!!.strokeJoin = Paint.Join.ROUND
         mDrawPaint!!.strokeCap = Paint.Cap.ROUND
-        mCanvasPaint = Paint(Paint.DITHER_FLAG)
+        mCanvasPaint = Paint(Paint.DITHER_FLAG)//Dithering is a king of shaking
+//        mBrushSize = 20.toFloat()
 
 
     }
@@ -45,6 +46,7 @@ class DrawingView(context:Context , attrs:AttributeSet) : View(context , attrs) 
         super.onDraw(canvas)
         canvas?.drawBitmap(mCanvasBitmap!!,0f,0f,mCanvasPaint)
 
+        //this for code is for staying the code on the screen on releasing the screen
         for(path in mPaths){
             mDrawPaint!!.strokeWidth = path.brushThickness
             mDrawPaint!!.color = path.color
@@ -79,7 +81,7 @@ class DrawingView(context:Context , attrs:AttributeSet) : View(context , attrs) 
                 }
             }
             MotionEvent.ACTION_UP ->{//here we are releasing our screen
-                mPaths.add(mDrawPath!!)
+                mPaths.add(mDrawPath!!)//this is for the drawing line to remain persist for some time
                 mDrawPath = CustomPath(color,mBrushSize)
             }
             else ->return false

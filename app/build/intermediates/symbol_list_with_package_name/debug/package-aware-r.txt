@@ -677,6 +677,9 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable gall
+drawable gallery
+drawable galleryimage
 drawable ic_brush
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -796,6 +799,7 @@ id groups
 id home
 id homeAsUp
 id ib_brush
+id ib_gallery
 id ib_large_brush
 id ib_medium_brush
 id ib_small_brush
@@ -812,6 +816,7 @@ id line1
 id line3
 id listMode
 id list_item
+id ll_action_buttons
 id ll_paint_colors
 id message
 id middle
