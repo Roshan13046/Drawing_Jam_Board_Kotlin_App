@@ -683,6 +683,9 @@ drawable galleryimage
 drawable ic_brush
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_redo
+drawable ic_save
+drawable ic_undo
 drawable image
 drawable large
 drawable medium
@@ -802,7 +805,10 @@ id ib_brush
 id ib_gallery
 id ib_large_brush
 id ib_medium_brush
+id ib_redo
+id ib_save
 id ib_small_brush
+id ib_undo
 id icon
 id icon_group
 id ifRoom
@@ -1376,3 +1382,4 @@ styleable Toolbar android_gravity android_minHeight buttonGravity collapseConten
 styleable View android_theme android_focusable paddingEnd paddingStart theme
 styleable ViewBackgroundHelper android_background backgroundTint backgroundTintMode
 styleable ViewStubCompat android_id android_layout android_inflatedId
+xml path

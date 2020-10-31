@@ -5,6 +5,10 @@ import android.app.Dialog
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.content.pm.PackageManager.PERMISSION_GRANTED
+import android.graphics.Bitmap
+import android.graphics.Canvas
+import android.graphics.Color
+import android.os.AsyncTask
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.MediaStore
@@ -17,6 +21,9 @@ import androidx.core.view.get
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.dialog_brush_size.*
 import kotlinx.android.synthetic.main.dialog_brush_size.view.*
+import java.io.ByteArrayOutputStream
+import java.io.File
+import java.io.FileOutputStream
 import java.util.jar.Manifest
 
 class MainActivity : AppCompatActivity() {
@@ -48,6 +55,24 @@ class MainActivity : AppCompatActivity() {
                 requestStoragePermission()
             }
         }
+
+        ///undo function
+        ib_undo.setOnClickListener {
+            drawing_view.onClickUndo()
+        }
+
+        //redo function
+        ib_redo.setOnClickListener {
+            drawing_view.onClickRedo()
+        }
+
+        ib_save.setOnClickListener {
+            if(isReadStorageAllowed()){
+                BitmapAsyncTask(getBitmapFromView(fl_drawing_view_container)).execute()
+            }else{
+                requestStoragePermission()
+            }
+        }
     }
 
 //    to check if the gallery image is accessed or not
@@ -67,8 +92,8 @@ class MainActivity : AppCompatActivity() {
                 }
             }
         }
-
     }
+
 
     private fun showBrushSizeChooserDialog(){
         val brushDialog = Dialog(this)
@@ -151,6 +176,66 @@ class MainActivity : AppCompatActivity() {
         val result = ContextCompat.checkSelfPermission(this, android.Manifest.permission.READ_EXTERNAL_STORAGE)
         return result == PERMISSION_GRANTED
     }
+
+    //function for converting view into bitmap file and returning bitmap file
+    private fun getBitmapFromView(view: View) : Bitmap{
+        val returnBitmap = Bitmap.createBitmap(view.width, view.height,
+            Bitmap.Config.ARGB_8888)
+        val canvas = Canvas(returnBitmap)
+        //creating A Sandwich of paths amd background images
+        val bgDrawable = view.background
+        if(bgDrawable != null){
+            bgDrawable.draw(canvas)
+        }else{
+            canvas.drawColor(Color.WHITE)
+        }
+        view.draw(canvas)
+        return returnBitmap
+
+    }
+
+    //creating background bitmap async task
+    private inner class BitmapAsyncTask(val mBitmap: Bitmap):
+        AsyncTask<Any, Void, String>(){
+
+        override fun doInBackground(vararg params: Any?): String {
+            var result = ""
+
+            if(mBitmap != null){
+                try{
+                    val bytes = ByteArrayOutputStream()
+                    //compressing the bitmap into PNG file
+                    mBitmap.compress(Bitmap.CompressFormat.PNG, 90, bytes)
+                    //giving each file a unique name
+                    val f = File(externalCacheDir!!.absoluteFile.toString()+
+                            File.separator+"KidsDrawingApp_"+
+                            System.currentTimeMillis() / 1000 +".png")
+
+                    val fos = FileOutputStream(f)
+                    fos.write(bytes.toByteArray())
+                    fos.close()
+                    result = f.absolutePath
+                }catch (e : Exception){
+                    result = ""
+                    e.printStackTrace()
+                }
+            }
+            return result
+        }
+
+        override fun onPostExecute(result: String?) {
+            super.onPostExecute(result)
+            //not necessary to write this code
+            if(!result!!.isEmpty()){
+                Toast.makeText(this@MainActivity,
+                    "File Saved Successfully : $result",Toast.LENGTH_SHORT).show()
+            }else{
+                Toast.makeText(this@MainActivity,
+                    "Unable to save the file",Toast.LENGTH_SHORT).show()
+            }
+        }
+    }
+
 
     companion object{
         private const val STORAGE_PERMISSION_CODE = 1

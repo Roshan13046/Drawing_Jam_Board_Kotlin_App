@@ -19,7 +19,7 @@
 13-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:7:22-78
 14
 15    <application
-15-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:9:5-23:19
+15-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:9:5-35:19
 16        android:allowBackup="true"
 16-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:10:9-35
 17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -53,6 +53,25 @@
 31-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:20:27-74
 32            </intent-filter>
 33        </activity>
-34    </application>
-35
-36</manifest>
+34
+35        <!-- provider is added for save button feature -->
+36        <provider
+36-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:25:9-33:20
+37            android:name="androidx.core.content.FileProvider"
+37-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:26:13-62
+38            android:authorities="com.example.kidsdrawingapp.fileprovider"
+38-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:27:13-74
+39            android:exported="false"
+39-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:28:13-37
+40            android:grantUriPermissions="true" >
+40-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:29:13-47
+41            <meta-data
+41-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:30:13-32:47
+42                android:name="android.support.FILE_PROVIDER_PATHS"
+42-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:31:17-67
+43                android:resource="@xml/path" />
+43-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:32:17-45
+44        </provider>
+45    </application>
+46
+47</manifest>

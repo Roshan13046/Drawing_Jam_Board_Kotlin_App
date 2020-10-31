@@ -17,9 +17,28 @@ class DrawingView(context:Context , attrs:AttributeSet) : View(context , attrs) 
     private var color = Color.GREEN
     private var canvas: Canvas?= null
     private val mPaths = ArrayList<CustomPath>()
+    private val mUndoPaths = ArrayList<CustomPath>()
 
     init{
         setUpDrawing()
+    }
+
+    //undo fun
+    fun onClickUndo(){
+        if(mPaths.size > 0){
+            mUndoPaths.add(mPaths.removeAt(mPaths.size - 1))
+            //invalidate will redraw the paths in canvas by calling onDraw fun
+            invalidate()
+        }
+    }
+
+    //redo fun
+    fun onClickRedo(){
+        if(mUndoPaths.size > 0 ){
+            mPaths.add(mUndoPaths.removeAt(mUndoPaths.size - 1))
+            //invalidate will call onDraw fun
+            invalidate()
+        }
     }
 
     private fun setUpDrawing(){
