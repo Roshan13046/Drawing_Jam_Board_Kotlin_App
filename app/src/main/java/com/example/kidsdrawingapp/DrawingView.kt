@@ -23,18 +23,20 @@ class DrawingView(context:Context , attrs:AttributeSet) : View(context , attrs) 
         setUpDrawing()
     }
 
-    //undo fun
+    //Undo functionality
     fun onClickUndo(){
         if(mPaths.size > 0){
             mUndoPaths.add(mPaths.removeAt(mPaths.size - 1))
-            //invalidate will redraw the paths in canvas by calling onDraw fun
+            //this invalidate fun will call to onDraw( ) fun again and redraw te whole drawing once again with one step less
+
             invalidate()
         }
     }
 
+
     //redo fun
-    fun onClickRedo(){
-        if(mUndoPaths.size > 0 ){
+    fun onClickRedo() {
+        if (mUndoPaths.size > 0) {
             mPaths.add(mUndoPaths.removeAt(mUndoPaths.size - 1))
             //invalidate will call onDraw fun
             invalidate()
@@ -50,8 +52,6 @@ class DrawingView(context:Context , attrs:AttributeSet) : View(context , attrs) 
         mDrawPaint!!.strokeCap = Paint.Cap.ROUND
         mCanvasPaint = Paint(Paint.DITHER_FLAG)//Dithering is a king of shaking
 //        mBrushSize = 20.toFloat()
-
-
     }
 
     override fun onSizeChanged(w:Int,h:Int,oldw:Int,oldh:Int){

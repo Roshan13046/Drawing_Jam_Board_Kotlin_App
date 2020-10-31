@@ -33,45 +33,44 @@
 21-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:13:9-54
 22        android:supportsRtl="true"
 22-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:14:9-35
-23        android:testOnly="true"
-24        android:theme="@style/AppTheme" >
-24-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:15:9-40
-25        <activity
-25-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:16:9-22:20
-26            android:name="com.example.kidsdrawingapp.MainActivity"
-26-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:16:19-47
-27            android:screenOrientation="portrait" >
-27-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:16:48-84
-28            <intent-filter>
-28-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:17:13-21:29
-29                <action android:name="android.intent.action.MAIN" />
-29-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:18:17-69
-29-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:18:25-66
-30
-31                <category android:name="android.intent.category.LAUNCHER" />
-31-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:20:17-77
-31-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:20:27-74
-32            </intent-filter>
-33        </activity>
-34
-35        <!-- provider is added for save button feature -->
-36        <provider
-36-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:25:9-33:20
-37            android:name="androidx.core.content.FileProvider"
-37-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:26:13-62
-38            android:authorities="com.example.kidsdrawingapp.fileprovider"
-38-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:27:13-74
-39            android:exported="false"
-39-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:28:13-37
-40            android:grantUriPermissions="true" >
-40-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:29:13-47
-41            <meta-data
-41-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:30:13-32:47
-42                android:name="android.support.FILE_PROVIDER_PATHS"
-42-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:31:17-67
-43                android:resource="@xml/path" />
-43-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:32:17-45
-44        </provider>
-45    </application>
-46
-47</manifest>
+23        android:theme="@style/AppTheme" >
+23-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:15:9-40
+24        <activity
+24-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:16:9-22:20
+25            android:name="com.example.kidsdrawingapp.MainActivity"
+25-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:16:19-47
+26            android:screenOrientation="portrait" >
+26-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:16:48-84
+27            <intent-filter>
+27-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:17:13-21:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:18:17-69
+28-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:18:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:20:17-77
+30-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:20:27-74
+31            </intent-filter>
+32        </activity>
+33
+34        <!-- provider is added for save button feature -->
+35        <provider
+35-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:25:9-33:20
+36            android:name="androidx.core.content.FileProvider"
+36-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:26:13-62
+37            android:authorities="com.example.kidsdrawingapp.fileprovider"
+37-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:27:13-74
+38            android:exported="false"
+38-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:28:13-37
+39            android:grantUriPermissions="true" >
+39-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:29:13-47
+40            <meta-data
+40-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:30:13-32:47
+41                android:name="android.support.FILE_PROVIDER_PATHS"
+41-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:31:17-67
+42                android:resource="@xml/path" />
+42-->C:\Users\Lenovo\Desktop\KotlinAppsProjects\KidsDrawingApp\app\src\main\AndroidManifest.xml:32:17-45
+43        </provider>
+44    </application>
+45
+46</manifest>

@@ -36,10 +36,6 @@
         "source": "C:\\Users\\Lenovo\\Desktop\\KotlinAppsProjects\\KidsDrawingApp\\app\\src\\main\\res\\drawable\\ic_save.jpg"
     },
     {
-        "merged": "C:\\Users\\Lenovo\\Desktop\\KotlinAppsProjects\\KidsDrawingApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gall.jpg.flat",
-        "source": "C:\\Users\\Lenovo\\Desktop\\KotlinAppsProjects\\KidsDrawingApp\\app\\src\\main\\res\\drawable\\gall.jpg"
-    },
-    {
         "merged": "C:\\Users\\Lenovo\\Desktop\\KotlinAppsProjects\\KidsDrawingApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\Lenovo\\Desktop\\KotlinAppsProjects\\KidsDrawingApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
@@ -134,10 +130,6 @@
     {
         "merged": "C:\\Users\\Lenovo\\Desktop\\KotlinAppsProjects\\KidsDrawingApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gallery.jpg.flat",
         "source": "C:\\Users\\Lenovo\\Desktop\\KotlinAppsProjects\\KidsDrawingApp\\app\\src\\main\\res\\drawable\\gallery.jpg"
-    },
-    {
-        "merged": "C:\\Users\\Lenovo\\Desktop\\KotlinAppsProjects\\KidsDrawingApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_galleryimage.jpg.flat",
-        "source": "C:\\Users\\Lenovo\\Desktop\\KotlinAppsProjects\\KidsDrawingApp\\app\\src\\main\\res\\drawable\\galleryimage.jpg"
     },
     {
         "merged": "C:\\Users\\Lenovo\\Desktop\\KotlinAppsProjects\\KidsDrawingApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",

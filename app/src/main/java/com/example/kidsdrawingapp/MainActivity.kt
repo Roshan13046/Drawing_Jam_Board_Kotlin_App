@@ -56,10 +56,11 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        ///undo function
+
         ib_undo.setOnClickListener {
             drawing_view.onClickUndo()
         }
+
 
         //redo function
         ib_redo.setOnClickListener {
@@ -72,6 +73,11 @@ class MainActivity : AppCompatActivity() {
             }else{
                 requestStoragePermission()
             }
+        }
+
+        //redo button functionality
+        ib_redo.setOnClickListener {
+            drawing_view.onClickRedo()
         }
     }
 
@@ -191,7 +197,6 @@ class MainActivity : AppCompatActivity() {
         }
         view.draw(canvas)
         return returnBitmap
-
     }
 
     //creating background bitmap async task

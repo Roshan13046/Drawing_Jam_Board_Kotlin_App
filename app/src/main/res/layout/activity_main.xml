@@ -35,7 +35,6 @@
             />
     </FrameLayout>
 
-
     <LinearLayout
         android:id="@+id/ll_paint_colors"
         android:layout_width="wrap_content"
@@ -117,6 +116,7 @@
             android:src="@drawable/pallet_normal"
             android:tag="@color/blue"
             />
+
         <ImageButton
             android:layout_width="25dp"
             android:layout_height="25dp"
@@ -229,6 +229,7 @@
         android:contentDescription="redo_image"
         android:scaleType="fitXY"
         android:src="@drawable/ic_redo" />
+
     </LinearLayout>
 
 
