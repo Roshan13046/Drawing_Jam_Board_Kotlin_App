@@ -1,4 +1,4 @@
-#Fri Oct 30 21:06:10 IST 2020
+#Sat Oct 31 09:25:15 IST 2020
 base.0=C\:\\Users\\Lenovo\\Desktop\\KotlinAppsProjects\\KidsDrawingApp\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

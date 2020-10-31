@@ -48,6 +48,16 @@ class MainActivity : AppCompatActivity() {
                 requestStoragePermission()
             }
         }
+
+        //undo button functionality
+        ib_undo.setOnClickListener {
+            drawing_view.onClickUndo()
+        }
+
+        //redo button functionality
+        ib_redo.setOnClickListener {
+            drawing_view.onClickRedo()
+        }
     }
 
 //    to check if the gallery image is accessed or not

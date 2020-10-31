@@ -17,9 +17,28 @@ class DrawingView(context:Context , attrs:AttributeSet) : View(context , attrs) 
     private var color = Color.GREEN
     private var canvas: Canvas?= null
     private val mPaths = ArrayList<CustomPath>()
+    private val mUndoPaths = ArrayList<CustomPath>()
+    private val mRedoPaths = ArrayList<CustomPath>()
 
     init{
         setUpDrawing()
+    }
+
+    //Undo functionality
+    fun onClickUndo(){
+        if(mPaths.size > 0){
+            mUndoPaths.add(mPaths.removeAt(mPaths.size - 1))
+            //this invalidate fun will call to onDraw( ) fun again and redraw te whole drawing once again with one step less
+            invalidate()
+        }
+    }
+
+    //Redo funcionality
+    fun onClickRedo(){
+      if(mUndoPaths.size > 0){
+          mPaths.add(mUndoPaths.removeAt(mUndoPaths.size - 1))
+          invalidate()
+      }
     }
 
     private fun setUpDrawing(){
