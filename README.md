@@ -3,9 +3,9 @@ This is a drawing app made for creating amazing drawings with exicting features 
 
 ![drawingApp](https://user-images.githubusercontent.com/55108788/97798820-bf281000-1c4f-11eb-9eff-f936afa4da6e.png)
 
-This Project is made as a part of Learning  Web Development. 
+This Project is made as a part of Learning  Android Development. 
 
-This webpage is made right from scratch to learn Node.js.
+This Application is made right from scratch usimg KOTLIN.
 <b>Tools: Android, Git, Kotlin</b>
 
 If you find any issues with the currently present implementations, feel to correct them or create an issue mentioning those.
