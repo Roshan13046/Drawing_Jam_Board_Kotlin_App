@@ -27,7 +27,7 @@ The different functionalities of my app are as follows:
 
 ⚡️ Choose Different Colors via Drawing. 
 
-⚡️ The app has a 5 buttons 
+⚡️ The app has 5 buttons:
 
   - ✔️ First button is for Undo any task.   
   - ✔️ Second button is for chossing the brish size.
