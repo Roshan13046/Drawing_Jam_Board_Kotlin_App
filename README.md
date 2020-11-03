@@ -9,10 +9,16 @@ This Application is made right from scratch usimg KOTLIN.
 If you find any issues with the currently present implementations, feel to correct them or create an issue mentioning those.
 
 ## Project Description
-o Developed as an Android app for students to show their Drawing creativity, to do rough works, to reduce paper usage,to save trees and nature.
-o Architected using Java, KOTLIN, XML/JSON, Android Studio.
-o Allows the user to create Drawings using Colors, Brush sizes, Edit/Share images, Save and Undo/ Redo current tasks.
-o Use of Async tasks, Sneck Bars, customizing UI, using custom progress dialogues etc. 
+ <ul>
+  <li>o Developed as an Android app for students to show their Drawing creativity, to do rough works, to reduce paper usage,to save trees and nature.</li>
+  <li>o Architected using Java, KOTLIN, XML/JSON, Android Studio.</li>
+  <li>o Allows the user to create Drawings using Colors, Brush sizes, Edit/Share images, Save and Undo/ Redo current tasks.</li>
+  <li>o Use of Async tasks, Sneck Bars, customizing UI, using custom progress dialogues etc. </li>
+</ul>
+
+
+
+
 
 # Functionalities of App:
 The different functionalities of my app are as follows
@@ -21,6 +27,7 @@ The different functionalities of my app are as follows
 ⚡️ Choose Different Colors via Drawing. 
 
 ⚡️ The app has a 5 buttons 
+
   ✔️ First button is for Undo any task.   
   ✔️ Second button is for chossing the brish size.
   ✔️ Third button is for choosing any Image from a Gallery
