@@ -29,11 +29,11 @@ The different functionalities of my app are as follows:
 
 ⚡️ The app has a 5 buttons 
 
-  -✔️ First button is for Undo any task.   
-  -✔️ Second button is for chossing the brish size.
-  -✔️ Third button is for choosing any Image from a Gallery
-  -✔️ Fourth image is for Saving and Sharing the Image.
-  -✔️ Fifth button is for Redoing the task.
+  - ✔️ First button is for Undo any task.   
+  - ✔️ Second button is for chossing the brish size.
+  - ✔️ Third button is for choosing any Image from a Gallery
+  - ✔️ Fourth image is for Saving and Sharing the Image.
+  - ✔️ Fifth button is for Redoing the task.
 
 
 ## Learnings from above Project :
