@@ -10,10 +10,10 @@ If you find any issues with the currently present implementations, feel to corre
 
 ## Project Description
  <ul>
-  <li>o Developed as an Android app for students to show their Drawing creativity, to do rough works, to reduce paper usage,to save trees and nature.</li>
-  <li>o Architected using Java, KOTLIN, XML/JSON, Android Studio.</li>
-  <li>o Allows the user to create Drawings using Colors, Brush sizes, Edit/Share images, Save and Undo/ Redo current tasks.</li>
-  <li>o Use of Async tasks, Sneck Bars, customizing UI, using custom progress dialogues etc. </li>
+  <li> Developed as an Android app for students to show their Drawing creativity, to do rough works, to reduce paper usage,to save trees and nature.</li>
+  <li> Architected using Java, KOTLIN, XML/JSON, Android Studio.</li>
+  <li> Allows the user to create Drawings using Colors, Brush sizes, Edit/Share images, Save and Undo/ Redo current tasks.</li>
+  <li> Use of Async tasks, Sneck Bars, customizing UI, using custom progress dialogues etc. </li>
 </ul>
 
 
@@ -21,35 +21,36 @@ If you find any issues with the currently present implementations, feel to corre
 
 
 # Functionalities of App:
-The different functionalities of my app are as follows
+The different functionalities of my app are as follows:
+
 ⚡️ The app has a Drawing page to do draw or do Rough work on the Drawing page.
 
 ⚡️ Choose Different Colors via Drawing. 
 
 ⚡️ The app has a 5 buttons 
 
-  ✔️ First button is for Undo any task.   
-  ✔️ Second button is for chossing the brish size.
-  ✔️ Third button is for choosing any Image from a Gallery
-  ✔️ Fourth image is for Saving and Sharing the Image.
-  ✔️ Fifth button is for Redoing the task.
+  -✔️ First button is for Undo any task.   
+  -✔️ Second button is for chossing the brish size.
+  -✔️ Third button is for choosing any Image from a Gallery
+  -✔️ Fourth image is for Saving and Sharing the Image.
+  -✔️ Fifth button is for Redoing the task.
 
 
 ## Learnings from above Project :
 
-⚡️ I learned how to design custom dialog, code to access permission of gallery, gps, contact.
+✔️ I learned how to design custom dialog, code to access permission of gallery, gps, contact.
 
-⚡️ How to use views and intents in android app to communicate with the gallery or Other external apps.
+✔️ How to use views and intents in android app to communicate with the gallery or Other external apps.
 
-⚡️ How to access gallery or other app data like images and edit inside the drawing app.
+✔️ How to access gallery or other app data like images and edit inside the drawing app.
 
-⚡️ To create a back/undo and forward/Redo button in an app.
+✔️ To create a back/undo and forward/Redo button in an app.
 
-⚡️ To create Async Tasks in the background of the App.
+✔️ To create Async Tasks in the background of the App.
 
-⚡️ To store/save an image in the bakground.(This was the most challenging task of this app)
+✔️ To store/save an image in the bakground.(This was the most challenging task of this app)
 
-⚡️ To export and import the image via sharing feature.
+✔️ To export and import the image via sharing feature.
 
 
 
