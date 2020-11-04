@@ -8,6 +8,7 @@ import android.content.pm.PackageManager.PERMISSION_GRANTED
 import android.graphics.Bitmap
 import android.graphics.Canvas
 import android.graphics.Color
+import android.media.MediaScannerConnection
 import android.os.AsyncTask
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -238,8 +239,26 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this@MainActivity,
                     "Unable to save the file",Toast.LENGTH_SHORT).show()
             }
+            
+            //fun to share an image
+            MediaScannerConnection.scanFile(this@MainActivity, arrayOf(result), null){
+                //before sharing anything we need to create an Intent
+                path, uri -> val shareIntent = Intent()
+                shareIntent.action = Intent.ACTION_SEND
+                shareIntent.putExtra(Intent.EXTRA_STREAM, uri)
+                shareIntent.type = "image/png"
+
+                startActivity(
+                    Intent.createChooser(
+                        shareIntent, "Share"
+                    )
+                )
+            }
         }
+        
     }
+
+
 
 
     companion object{

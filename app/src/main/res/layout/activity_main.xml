@@ -75,6 +75,7 @@
             android:src="@drawable/pallet_normal"
             android:tag="@color/yellow"
             />
+
         <ImageButton
             android:layout_width="25dp"
             android:layout_height="25dp"
@@ -220,6 +221,16 @@
         android:contentDescription="save_image"
         android:scaleType="fitXY"
         android:src="@drawable/ic_save" />
+
+<!--        <ImageButton-->
+<!--            android:id="@+id/ib_share"-->
+<!--            android:layout_width="50dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:contentDescription="share_image"-->
+<!--            android:scaleType="fitXY"-->
+<!--            android:src="@drawable/ic_share" />-->
+
 
         <ImageButton
         android:id="@+id/ib_redo"
