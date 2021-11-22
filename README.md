@@ -1,4 +1,4 @@
-# Kotlin Drawing App
+# Drawing Jam Board Kotlin Android App
 This is a drawing app made for creating amazing drawings with exicting features of coloring, saving, editing, erasing, sharing, etc.
 
 ![drawingApp](https://user-images.githubusercontent.com/55108788/97798820-bf281000-1c4f-11eb-9eff-f936afa4da6e.png)
